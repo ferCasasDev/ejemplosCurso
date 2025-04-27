@@ -14,6 +14,7 @@ namespace ejemplo1
     {
         public frmPrincipal()
         {
+            // agrego un comentario de prueba
             InitializeComponent();
         }
 
@@ -62,6 +63,11 @@ namespace ejemplo1
         {
             frmCalendario ventana = new frmCalendario();
             ventana.ShowDialog();
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
